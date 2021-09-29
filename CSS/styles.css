@@ -1,0 +1,225 @@
+body {
+   padding: 0;
+   margin: 0;
+}
+div {
+   box-sizing: border-box;
+}
+.caption {
+   background: url(../img/slide4@1X.png) no-repeat center / cover;
+   height: 601px;
+}
+.logo::first-letter{
+   color: #1ABC9C;
+   font-family: Roboto, sans-serif;
+   font-size: 30px;
+}
+.logo {
+   font-size: 30px;
+   font-family: "Roboto Light", sans-serif;
+
+}
+.container {
+   width: 1112px;
+   margin: 0 auto;
+}
+
+ .menu {
+    padding: 0;
+    margin: 0;
+    display: block;
+     position: absolute;
+     top: 38px;
+     left: 810px;
+ }
+ .menu li {
+     display: inline;
+     margin-right: 28px;
+ }
+ .menu a {
+     color: black;
+     text-decoration: none;
+     text-transform: uppercase;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 14px;
+ }
+.caption {
+    text-align: center;
+}
+.headline {
+    display: inline-block;
+    padding-top: 170px;
+}
+h1 {
+    font-family: "Roboto Light", sans-serif;
+    font-size: 53px;
+    color: #ffff;
+    margin-bottom: 20px;
+}
+.headline p {
+    font-family: "Roboto Light", sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+    color: #ffff;
+    text-align: left;
+
+}
+.button1 {
+    width: 100px;
+    height: 80px;
+    background-color: #1ABC9C;
+    opacity: 0.9;
+    border: none;
+    display: inline-block;
+    color: white;
+    font-size: 60px;
+    text-decoration: none;
+    padding-top: 15px;
+    text-align: center;
+    float: left;
+    margin-top: 230px;
+}
+.button2 {
+    height: 80px;
+    width: 100px;
+    background-color: #1ABC9C;
+    opacity: 0.9;
+    border: none;
+    display: inline-block;
+    color: white;
+    font-size: 60px;
+    text-decoration: none;
+    padding-top: 15px;
+    text-align: center;
+    float: right;
+    margin-top: 230px;
+}
+.newcollection {
+    background-color: #E9F0FD;
+
+}
+h2 {
+    font-family: roboto-black, sans-serif;
+    color: #515151;
+    font-size: 48px;
+    margin: 0;
+    padding-top: 102px;
+    text-align: center;
+}
+.line {
+    border-top: 8px solid #1ABC9C;
+    width: 180px;
+    font-weight: bold;
+    margin-top: 31px;
+    margin-bottom: 88px;
+    margin-left: 468px;
+}
+
+img {
+    width: 250px;
+    height: 260px;
+    margin-right: 12px;
+    margin-left: 13px;
+    margin-bottom: 90px;
+}
+footer {
+    background-color: #323232;
+}
+.end {
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    padding-top: 39px;
+    padding-bottom: 33px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+span {
+    color: #1ABC9C;
+}
+.icons {
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    padding-top: 60px;
+    padding-left: 8px;
+    margin-bottom: 0;
+
+}
+.select {
+    height: 40px;
+    width: 40px;
+    padding-top: 10px;
+    padding-left: 18px;
+    margin: 0;
+    position: relative;
+}
+.card {
+    position: absolute;
+    left: 90px;
+    bottom: 65px;
+    font-family: "Roboto Light", sans-serif;
+    font-weight: lighter;
+    font-size: smaller;
+}
+.window {
+    display: none;
+    height: 210px;
+    width: 230px;
+    background-color: rgba( 115, 115, 115, 0.5);
+    position:absolute;
+    left: 8%;
+    top: 2%;
+}
+
+.image {
+    position: relative;
+}
+.image:hover .window {
+    display: block;
+}
+.add-to-card {
+    border: 1px solid #ffffff;
+    width: 200px;
+    margin-left: 14px;
+    background-color: rgba( 255, 255, 255, 0.5);
+}
+
+.one , .two , .three , .four{
+    position: relative;
+}
+.name {
+    width: 200px;
+    height: 25px;
+    background-color: #323232;
+    color: #ffffff;
+    font-family: roboto-black, sans-serif;
+    padding-top: 10px;
+    padding-left: 10px;
+    position: absolute;
+    top: 59%;
+    left: 5%;
+
+}
+.price {
+    width: 40px;
+    height: 25px;
+    background-color: #8C8C8C;
+    color: #ffffff;
+    font-family: roboto-black, sans-serif;
+    padding-top: 10px;
+    padding-left: 10px;
+    position: absolute;
+    top: 59%;
+    left: 77%;
+}
+.wrapper {
+    display: inline-block;
+}
+.one:hover .name , .two:hover .name , .three:hover .name ,  .four:hover .name  {
+    background-color: #1ABC9C;
+}
+.one:hover .price , .two:hover .price , .three:hover .price , .four:hover .price{
+    background-color: #7FD9C7;
+}
